@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1679169723 source:c:\users\karas\git\karas-illia-ki222\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<cmath>
+	"ModulesKaras.h"
+
+1679169215 c:\users\karas\git\karas-illia-ki222\lab08\prj\karas_task\moduleskaras.h
+
