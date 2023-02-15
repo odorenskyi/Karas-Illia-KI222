@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1679169336 source:c:\users\karas\git\karas-illia-ki222\lab08\prj\karas_task\main.cpp
+	<iostream>
+	<cmath>
+	<iomanip>
+	<conio.h>
+	"ModulesKaras.h"
+
+1679169215 c:\users\karas\git\karas-illia-ki222\lab08\prj\karas_task\moduleskaras.h
+

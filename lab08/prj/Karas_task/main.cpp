@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <cmath>
 #include <iomanip>
 #include <conio.h>
@@ -13,23 +13,23 @@ using namespace std;
 
 void copyright()
 {
-    cout << "© Êàðàñü ²ëëÿ" << endl << endl;
+    cout << "Â© ÐšÐ°Ñ€Ð°ÑÑŒ Ð†Ð»Ð»Ñ" << endl << endl;
 }
 
 void expression(char a, char b)
 {
     bool expression =  a + 1 <= b;
-    cout << noboolalpha << "Ðåçóëüòàò a + 1 <= b: " << expression << endl << endl;
+    cout << noboolalpha << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ a + 1 <= b: " << expression << endl << endl;
 }
 
 void DecHexFunc(int x, int y, int z)
 {
-    cout << "'x' Â äåñÿòêîâ³é: " << dec << x << endl;
-    cout << "'y' Â äåñÿòêîâ³é: " << dec << y << endl;
-    cout << "'z' Â äåñÿòêîâ³é: " << dec << z << endl;
-    cout << "'x' Â ø³ñòíàäöÿòêîâ³é: " << hex << x << endl;
-    cout << "'y' Â ø³ñòíàäöÿòêîâ³é: " << hex << y << endl;
-    cout << "'z' Â ø³ñòíàäöÿòêîâ³é: " << hex << z << endl << endl;
+    cout << "'x' Ð’ Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << dec << x << endl;
+    cout << "'y' Ð’ Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << dec << y << endl;
+    cout << "'z' Ð’ Ð´ÐµÑÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << dec << z << endl;
+    cout << "'x' Ð’ ÑˆÑ–ÑÑ‚Ð½Ð°Ð´Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << hex << x << endl;
+    cout << "'y' Ð’ ÑˆÑ–ÑÑ‚Ð½Ð°Ð´Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << hex << y << endl;
+    cout << "'z' Ð’ ÑˆÑ–ÑÑ‚Ð½Ð°Ð´Ñ†ÑÑ‚ÐºÐ¾Ð²Ñ–Ð¹: " << hex << z << endl << endl;
 }
 
 int x, y, z;
@@ -40,13 +40,13 @@ int main()
     system("chcp 65001 && cls");
     copyright();
 
-    cout << "Ââåä³òü x: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ x: ";
     cin >> x;
-    cout << "Ââåä³òü y: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ y: ";
     cin >> y;
-    cout << "Ââåä³òü z: ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ z: ";
     cin >> z;
-    cout << "Ââåä³òü ñèìâîëè 'a' òà 'b': ";
+    cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¸ 'a' Ñ‚Ð° 'b': ";
     cin >> a >> b;
 
     cout << endl;
@@ -54,7 +54,7 @@ int main()
     expression(a, b);
     DecHexFunc(x, y, z);
 
-    cout << "Ðåçóëüòàò îá÷èñëåííÿ âèðàçó: S = " << s_calculation(x, y, z) << endl;
+    cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð¾Ð±Ñ‡Ð¸ÑÐ»ÐµÐ½Ð½Ñ Ð²Ð¸Ñ€Ð°Ð·Ñƒ: S = " << s_calculation(x, y, z) << endl;
     getch();
 
     return 0;
