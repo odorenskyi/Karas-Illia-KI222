@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1648481390 source:e:\program\code blocks\codeblocks\save\bmtp\lb ¹10\testdriver\main.cpp
+	<iostream>
+	<windows.h>
+	<cstring>
+	"ModulesIsachenkov.h"
+
+1648486662 c:\users\user\desktop\github\isachenkov-eduard-kb-21\lab10\prj\modules\modulesisachenkov.h
+
+1648541019 source:c:\users\user\desktop\github\isachenkov-eduard-kb-21\lab10\prj\testdriver\main.cpp
+	<iostream>
+	<windows.h>
+	<cstring>
+	<fstream>
+	<ctime>
+	"ModulesIsachenkov.h"
+
